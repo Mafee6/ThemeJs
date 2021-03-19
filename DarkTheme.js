@@ -7,6 +7,9 @@
 
 var $pageTheme;
 
+try{
+ThemeInit();
+
 const theme = {
   dark: () => {
     $pageTheme = "dark";
@@ -42,5 +45,7 @@ setInterval(() => {
 	}
 }, 100);
 
-
+}catch (){
+	console.error("Theme.js: An Error Occured.");
+}
 // Mafee 7
