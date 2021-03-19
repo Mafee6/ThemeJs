@@ -3,13 +3,6 @@ Use This Library To Switch Change Themes On Any Webpage.
 
 Usage: 
 
-## Use Init Function:
-```javacript
-function ThemeInit(){
-// Code Here. 
-}
-```
-
 ## theme.dark(); 
 For Normal Dark Theme
 
@@ -18,3 +11,5 @@ For Extra Dark Theme
 
 ## theme.light();
 For Light Theme
+
+## Pls Load Theme.js Then Main.js
