@@ -44,7 +44,10 @@ setInterval(() => {
 	}
 }, 100);
 
+ThemeInit();
+	
 }catch (){
 	console.error("Theme.js: An Error Occured.");
 }
 // Mafee 7
+
