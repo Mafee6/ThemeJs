@@ -8,7 +8,6 @@
 var $pageTheme;
 
 try{
-ThemeInit();
 
 const theme = {
   dark: () => {
