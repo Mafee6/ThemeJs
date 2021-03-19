@@ -1,8 +1,6 @@
 /*
-
   Dark Theme
   © Mafee7
-
 */
 
 var $pageTheme;
@@ -46,8 +44,7 @@ setInterval(() => {
 
 ThemeInit();
 	
-}catch (){
-	console.error("Theme.js: An Error Occured.");
+}catch (err){
+	console.error("Theme.js: An Error Occured." + err);
 }
 // Mafee 7
-
